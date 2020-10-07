@@ -1,4 +1,5 @@
 import React from "react";
+import loginImg from "../../login.png";
 
 export class Register extends React.Component {
   constructor(props) {
@@ -11,7 +12,10 @@ export class Register extends React.Component {
         <div className="header">Register</div>
         <div className="content">
           <div className="image">
-            <img src="" alt="alt" />
+            <img
+              src="https://www.flaticon.com/svg/static/icons/svg/3537/3537760.svg"
+              alt="alt"
+            />
           </div>
           <div className="form">
             <div className="form-group">
